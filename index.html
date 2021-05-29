@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Create Account</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <section> 
+        <div class="container">   
+            <div class="user signinbox">
+                <div class="imgbox"><img src="Create Account _Slack.jpg"></div>
+                <div class="formbox">
+                    <form>
+                       <h1>Sign In</h1>
+                       <input type="text" name="" placeholder="Name">
+                       <input type="password" name="" placeholder="Password">
+                       <input type="submit" name="" value="Login">
+                       <p class="signin">Don't have an account ?<a href="#" onclick="toggleform();"> Sign Up</a></p>
+                       </p>
+                    </form>
+                </div> 
+            </div>
+            <div class="user signupbox">
+            <div class="formbox">
+                    <form>
+                       <h1>Create Account</h1>
+                        
+                        <div class="social-media">
+                          <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                          <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
+                          <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a></div>
+                          <p class="social-text">or use your email for registration:</p>
+                          
+                       <input type="text" name="" placeholder="Name">
+                       <input type="email" name="" placeholder="Email Address">
+                       <input type="password" name="" placeholder="Create Password">
+                       <input type="submit" name="" value="Sign Up">
+                       <p class="signup">Already have an account ? <a href="#" onclick="toggleform();">Sign In</a>
+                       </p>
+                    </form>
+                </div>
+              <div class="imgbox"><img src="Create Account _Slack.jpg"></div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        function toggleform(){
+        var container = document.querySelector('.container');
+        container.classList.toggle('active')
+        }
+    </script>
+  </body>
+</html>
+
